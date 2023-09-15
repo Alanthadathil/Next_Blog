@@ -1,9 +1,9 @@
 import React from "react";
-import style from "./page.module.css";
+import styles from "./page.module.css";
 
 function page() {
     return (
-        <div className={style.container}>
+        <div className={styles.container}>
             <h1>Dashboard</h1>
         </div>
     );

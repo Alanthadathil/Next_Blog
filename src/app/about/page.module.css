@@ -1,3 +1,16 @@
 .container{
-    background-color: blue;
+   
+};
+.imgContainer{
+    width: 100%;
+    position: relative;
+}
+.img{
+    object-fit: fill;
+}
+.imgText{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #53c28b;
 }
