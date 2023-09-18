@@ -7,14 +7,13 @@ function page() {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>Let's Keep in Touch</h1>
-            <div className="content">
-                <div className="imgContainer">
+            <div className={styles.content}>
+                <div className={styles.imgContainer}>
                     <Image
                         src="https://img.freepik.com/free-photo/ai-generated-concept-human_23-2150688415.jpg?t=st=1695051884~exp=1695055484~hmac=ff617e93d35fe5e10336995e5bd8ce7e1b1a7d0c7c937f4521e7173304406fe3&w=740"
                         alt="Image"
                         className={styles.image}
-                        height={600}
-                        width={500}
+                        fill={true}
                     />
                 </div>
                 <div className={styles.form}>
