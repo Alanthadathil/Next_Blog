@@ -9,8 +9,25 @@
     object-fit: fill;
 }
 .imgText{
+    left: 350px;
+    bottom: 100px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
     background-color: #53c28b;
+    color: #fff;
+}
+.textContainer{
+    display: flex;
+    gap: 100px;
+}
+.item{
+    flex: 1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desc{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
 }

@@ -46,8 +46,11 @@ function page() {
                         elit. Ad, harum. Expedita culpa voluptatem, molestiae
                         nisi fuga totam rem eum enim nesciunt consequatur!
                         <br />
+                        <br /> - Dynamic Website
                         <br />
-                        Facere pariatur ut adipisci iste nesciunt, nemo fugiat.
+                        <br /> - Fast and Handy
+                        <br />
+                        <br /> - Mobile apps
                     </p>
                     <Button url="/contact" text="Contact" />
                 </div>
